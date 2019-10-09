@@ -1,0 +1,29 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+
+body{
+  background-color: whitesmoke;
+}
+
+.banner{
+  background-color: white;
+}
+
+h1 {
+  float: left;
+}
+.navbar {
+  list-style-type: none;
+  float: right;
+}
+.navbar li {
+  display: inline-block;
+}
