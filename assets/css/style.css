@@ -56,3 +56,15 @@ hr {
   margin: 0;
   width: 100%;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-top: 30px;
+  width: 100%;
+  background-color: #666666;
+  color: white;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
+}
