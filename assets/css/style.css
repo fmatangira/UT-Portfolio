@@ -84,7 +84,7 @@ body {
   color: #4aaaa5;
 }
 
-#aboutMeDivide {
+#contentDivide {
   width: 90%;
   margin-top: 20px;
 }
@@ -105,14 +105,42 @@ body {
   padding-right: 20px;
 }
 
+#hangmanPic {
+  margin: 25px 0 0 50px;
+  padding-left: 35px;
+  width: 200px;
+}
+
+#hangmanTitle {
+  position: absolute;
+  top: 43%;
+  left: 8.9%;
+  margin: 0;
+  padding: 5px 36.7px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 30px;
+}
+
+#rpgPic {
+  margin: 25px 0 0 50px;
+  width: 200px;
+}
+
+#portfolioContainer {
+  height: 600px;
+}
+
 .container {
     background-color: white;
     position: absolute;
     top: 150px;
-    left: 319px;
+    left: 19%;
     width: 960px;
     height: 540px;
 }​
+
+
 /* ***************************************************************************
 ********************|||||||||||||||| FOOT ||||||||||||||||********************
 *************************************************************************** */
