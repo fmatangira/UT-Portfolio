@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-
   <head>
-    <meta charset="utf-8">
-    <title>Contact</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+
+      <meta charset="utf-8">
+      <title>Contact</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+
+      <div class="banner">
+
+          <div id="name">
+              <h1>Farai Matangira</h1>
+          </div>
+
+          <ul class="navbar">
+              <li><a href="index.html">About</a></li>
+              <li class="dividers">|</li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li class="dividers">|</li>
+              <li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+
+      </div>
+
+      <hr class="shadow">
+
   </head>
 
 
   <body>
-    <div class="banner">
 
-      <div class="name">
-        <h1>Farai Matangira</h1>
+      <div class="container">
+          <h1 id="contentHeading">Contact</h1>
+          <hr id="contentDivide">
+
+          <form class="contactForm" action="index.html" method="post">
+
+              <label class="contactName1" for="name">Name</label>
+              <input class="contactName2" type="text" name="name">
+
+              <label class="contactEmail1" for="name">Email</label>
+              <input class="contactEmail2" type="text" name="email">
+
+              <label class="contactMsg1" for="name">Message</label>
+              <input class="contactMsg2" type="text" name="msg">
+
+              <button type="button" name="Submit">Submit</button>
+          </form>
+      </div/>
+
+      <div class="footer">
+          Copyright ©
       </div>
 
-      <ul class="navbar">
-        <li><a href="index.html">About</a></li>
-        <li class="dividers">|</li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li class="dividers">|</li>
-        <li class="active"><a href="contact.html">Contact</a></li>
-      </ul>
-
-    </div>
-
-    <hr id="shadow">
   </body>
-
-
-  <footer>
-    Copyright ©
-  </footer>
-
-
 </html>
